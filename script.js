@@ -15,8 +15,6 @@ function global() {
     function random1() {
         if (guess === null) {
             guess = alert('Игра окончена');
-            global();
-
         } else if (guess < number) {
             guess = +prompt('Загадайте число больше');
             random1();
